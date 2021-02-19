@@ -2,6 +2,22 @@
  * YOUR CODE BELOW! *
  ********************/
 
+function moreThan5(age) {
+//age > 5;
+return age >5;
+ 
+  }
+
+  function isNewTopScore(score, topScore) {
+      score = 52;
+      topScore= 44;
+     return score <= topScore; 
+
+  }
+
+
+
+
 
 
 
