@@ -8,12 +8,57 @@ return age >5;
  
   }
 
-  function isNewTopScore(score, topScore) {
-      score = 52;
-      topScore= 44;
-     return score <= topScore; 
+  function isNewTopScore(newScore, oldScore) {
+    return newScore > oldScore; 
 
   }
+
+  function isInDanger(grade) {
+    return grade;
+    }//needs review
+
+  function isCoasting(grade) {
+
+  }//needs review
+
+  function isSucceeding(grade) {
+
+  }//needs review
+
+  function isFailing(grade) {
+    return grade <60;
+
+  }
+
+  function isAcing(grade) {
+    return grade >92;
+  }
+
+  function isStudent(role) {
+    return role === 'student';
+  }
+
+  function isTeacher(role) {
+    return role === 'teacher';
+  }
+
+  function isAdmin(role) {
+    return role === 'admin';
+  }
+
+  function areDifferentPeople(str1, str2) {
+    return str1 !== str2;
+  }
+
+  function isMiddleSchoolTeacher(role, level) {
+
+  }//needs review
+
+  function notAnElementarySchoolAdministrator(role, level){
+    
+  }
+
+
 
 
 
